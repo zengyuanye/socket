@@ -6,4 +6,4 @@
 - 进程间传递文件描述符:通过UNIX本地域socket传递特殊的辅助数据
 
 * 管道通信
-    ![Aaron Swartz](https://github.com/zengyuanye/socket/raw/img/83BF97A4-0D22-433E-849F-AEEAC8E9BCB4.png)
+    ![image](https://github.com/zengyuanye/socket/tree/master/img/83BF97A4-0D22-433E-849F-AEEAC8E9BCB4.png)

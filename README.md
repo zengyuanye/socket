@@ -13,7 +13,7 @@
     3.管道内部保证同步机制,从而保证访问数据的一致性
     4.面向字节流
     5.管道随进程,进程在管道在,进程消失,管道也消失
-    ![image](https://github.com/zengyuanye/socke/raw/master/img/83BF97A4-0D22-433E-849F-AEEAC8E9BCB4.png)
+    ![image](https://github.com/zengyuanye/socket/blob/master/img/83BF97A4-0D22-433E-849F-AEEAC8E9BCB4.png)
 * 信号量
     ## 不传送数据,保护共享资源使用信号量(本质上是一个计数器,原子操作),而不使用全局变量(费原子操作)
     ## 信号量有两种操作等待和发送信号,即P(sv)和V(sv),他们的行为是这样的

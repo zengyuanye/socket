@@ -33,7 +33,9 @@ int main(){
         int j = 0;
         while (j<5){
             memset(msg,'\0', sizeof(msg));
+            printf("read is blocking start\n");
             ssize_t s = read(fd[0],msg, sizeof(msg));
+            printf("read is blocking end \n");
             if(s>0){
                 msg[s-1] = '\0';
                 printf("%s\n",msg);
